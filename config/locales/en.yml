@@ -1,0 +1,18 @@
+ja:
+  activerecord:
+    attributes:
+      book:
+        name: 'Title'
+        price: 'Price(in Tax)'
+        author_id: 'Author'
+      author:
+        name: 'name'
+        birthday: 'birthday'
+  active_export:
+    default_value_labels:
+      nil: ''
+      blank: 'Empty'
+      true: 'Yes'
+      false: 'No'
+    book:
+      author_name: 'AuthorName'

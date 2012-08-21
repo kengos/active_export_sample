@@ -1,0 +1,16 @@
+ja:
+  activerecord:
+    attributes:
+      book:
+        name: 'タイトル'
+        price: '金額(税込)'
+        author_id: '著者'
+      author:
+        name: '著者名'
+        birthday: '誕生日'
+  active_export:
+    default_value_labels:
+      nil: 'から'
+      blank: 'ぶらんく'
+      true: 'はい'
+      false: 'いいえ'

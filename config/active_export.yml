@@ -1,0 +1,6 @@
+book:
+  label_prefix: 'book'
+  methods:
+    - name
+    - author.name
+    - price: '(price * 1.05).ceil.to_i'
